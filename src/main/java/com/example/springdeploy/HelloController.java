@@ -13,14 +13,7 @@ public class HelloController {
     @GetMapping("/hola")
     public String holaMundo(){
         System.out.println(message);
-        return " #######                                                                                                                     \n" +
-                "    #     ######        ##    #    #   ####       #    #  #       ####   #    #  #    #  #  #    #   ####   #  #####    ##   \n" +
-                "    #     #            #  #   ##  ##  #    #      ##  ##  #      #    #  #    #  ##   #  #  ##   #  #    #  #    #     #  #  \n" +
-                "    #     #####       #    #  # ## #  #    #      # ## #  #      #       #    #  # #  #  #  # #  #  #       #    #    #    # \n" +
-                "    #     #           ######  #    #  #    #      #    #  #      #  ###  #    #  #  # #  #  #  # #  #       #    #    ###### \n" +
-                "    #     #           #    #  #    #  #    #      #    #  #      #    #  #    #  #   ##  #  #   ##  #    #  #    #    #    # \n" +
-                "    #     ######      #    #  #    #   ####       #    #  #       ####    ####   #    #  #  #    #   ####   #    #    #    # \n" +
-                "                                                                                                                             ";
+        return "Hola, soy una pagina de internet inteligente, y puedo predecir que tu bbcito que ama mucho";
     }
 
     @GetMapping("/bootstrap")
