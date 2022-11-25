@@ -16,7 +16,7 @@ public class HelloController {
         return "Hola, soy una pagina de internet inteligente, y puedo predecir que tu bbcito que ama mucho";
     }
 
-    @GetMapping("/bootstrap")
+    @GetMapping("/")
     public String bootstrap(){
         return """
                                 
@@ -33,8 +33,9 @@ public class HelloController {
                     <title>Hello, world!</title>
                   </head>
                   <body>
-                    <h1>Hello, world!</h1>
-                                
+                    <h1>Hello Mundo desde Spring Boot!</h1>
+                     <a class="btn btn-primary" href="https://www.google.com"> Google </a>
+                     <a class="btn btn-primary" href="https://www.youtube.com"> youtube </a>
                     <!-- Optional JavaScript; choose one of the two! -->
                                 
                     <!-- Option 1: Bootstrap Bundle with Popper -->
